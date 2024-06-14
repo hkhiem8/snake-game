@@ -127,3 +127,5 @@ JavaScript, HTML, CSS.
 - Adding additional challenges
 - Adding difficulty levels, increasing the frame rate with each fruit eaten
 - Storing the high scores in a local storage so that it persists through refreshes
+- Adding responsive design to different screen sizes
+- Adding arrow buttons so that the game can be played on mobile
