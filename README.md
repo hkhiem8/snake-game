@@ -6,8 +6,19 @@ Though this project, I was also able to practice problem solving skills, taking 
 
 ![hkhiem8 github io_snake-game_](https://github.com/hkhiem8/snake-game/assets/88019192/f251cbe6-271e-4c68-bfbe-b87e30d4d808)
 
-## Deployed Game
+## Getting Started
+
+Here is the deployed game:
+
 https://hkhiem8.github.io/snake-game/
+
+The rules are simple:
+- Press spacebar to start the game
+- Press P to pause/resume the game
+- Use your arrow keys to control the snake
+- Eat fruits to gain points and grow the snake
+- If the snake hits itself or the wall, game over
+- Get 5 points to win the game
 
 ## Planning Process
 
