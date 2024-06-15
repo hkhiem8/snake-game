@@ -79,7 +79,7 @@ My project is heavily influenced by the codebase from Straker's Github page
 
 https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4#file-snake-html-L63-L66 . 
 
-I analysed this codebase line by line to understand JS animation and the data structure of a snake game. While some components of my game were built from Straker's oriignal codebase, I can confidently say that I understand all components and have adapted and organized each function in a way that makes sense to me.
+I analysed this codebase line by line to understand JS animation and the data structure of a snake game. While some components of my game were built from Straker's original codebase, I can confidently say that I understand all components and have adapted and organized each function in a way that makes sense to me.
 
 To make this project my own, I added/updated the following features:
 - game state management using cancelAnimationFrame

@@ -3,7 +3,6 @@
 var canvas = document.getElementById("map");
 var context = canvas.getContext("2d");
 const grid = 20;
-let count = 0;
 
 /*---------- Variables (state) ---------*/
 
@@ -13,12 +12,13 @@ let snake = {
   vx: grid, // Snake velocity: the snake moves one grid length (20) each frame in either x or y direction
   vy: 0,
   snakeCells: [], // Keeps track of all the grids that the snake body occupies
-  maxLength: 4
+  maxLength: 4,
 };
 
 let fruit = randomPosition();
 let score = 0;
 let highscore = 0;
+let count = 0;
 let gameId = null;
 let isRunning = false;
 let winner = false;
@@ -61,7 +61,8 @@ function renderSnake() {
 
 // When the snake eats, it grows 1 cell, and the fruit position gets randomized
 function snakeEat() {
-  if (snake.snakeCells[0].x === fruit.x && snake.snakeCells[0].y === fruit.y) {
+  const head = snake.snakeCells[0];
+  if (head.x === fruit.x && head.y === fruit.y) {
     snake.maxLength++;
     score++;
     updateScore();
